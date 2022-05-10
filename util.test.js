@@ -9,6 +9,9 @@ test("should output name and age", () => {
 	
 	const text2 = generateText("Denis", 25);
 	expect(text2).toBe("Denis (25 years old)");
+	
+	const text3 = generateText("William", 41);
+	expect(text3).toBe("William (41 years old)");
 });
 
 // Second test to check same function with different arguments
